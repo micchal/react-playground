@@ -5,10 +5,10 @@ const Card = () => {
   const [my, myf] = useState('yolo');
 
   const handler = () => {
-    myf('yolo2');
+    myf('test01');
   };
 
-  return <div onClick={() => myf('michal')}>{my}</div>;
+  return <div onClick={() => myf('test02')}>{my}</div>;
 };
 
 export default function App() {
